@@ -1,0 +1,83 @@
+
+@import	url(components/navbar.css);
+@import url(components/button.css);
+
+
+body {
+	background: #EDA3A9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BEE7E8, #EDA3A9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BEE7E8, #EDA3A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	border-radius: 50px #EDA3A9;
+}
+
+h1	{
+	color: #EDA3A9;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #7D8CC4;
+}
+
+#présentation{
+
+	background-color: #7D8CC4;
+	color:#A0D2DB;
+	padding:30px 30px;
+	padding-top: 5PX;
+	margin :50px 60px;
+	border-radius: 50px;
+	box-shadow: -10px 5px 10px #EDA3A9;
+}
+
+.borel-regular {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 32px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.chat {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	background-color: #EDA3A9;
+	padding:30px 30px;
+	padding-top: 30PX;
+	margin :50px 60px;
+	border-radius: 50px;
+	box-shadow: 5px 5px 10px #BEE7E8;
+}
+
+#image-chat-1 {
+	align-items: flex-end;
+
+}
+
+h3, h4, h5 {
+	text-decoration-style: bold;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+
+
+
+
+
